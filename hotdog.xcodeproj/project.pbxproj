@@ -13,6 +13,7 @@
 		7E0F3F1423A1771D009519BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0F3F1223A1771D009519BE /* Main.storyboard */; };
 		7E0F3F1623A1771F009519BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0F3F1523A1771F009519BE /* Assets.xcassets */; };
 		7E0F3F1923A1771F009519BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0F3F1723A1771F009519BE /* LaunchScreen.storyboard */; };
+		7E0F3F2123A1822D009519BE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7E0F3F2023A1822D009519BE /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7E0F3F1523A1771F009519BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0F3F1823A1771F009519BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0F3F1A23A1771F009519BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0F3F2023A1822D009519BE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7E0F3F1223A1771D009519BE /* Main.storyboard */,
 				7E0F3F1523A1771F009519BE /* Assets.xcassets */,
 				7E0F3F1723A1771F009519BE /* LaunchScreen.storyboard */,
+				7E0F3F2023A1822D009519BE /* Inceptionv3.mlmodel */,
 				7E0F3F1A23A1771F009519BE /* Info.plist */,
 			);
 			path = hotdog;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0F3F1123A1771D009519BE /* ViewController.swift in Sources */,
+				7E0F3F2123A1822D009519BE /* Inceptionv3.mlmodel in Sources */,
 				7E0F3F0D23A1771D009519BE /* AppDelegate.swift in Sources */,
 				7E0F3F0F23A1771D009519BE /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baykan.hotdog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baykan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baykan.hotdog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baykan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
